@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "toDoList",
+    "name": "ToDoList",
     "slug": "toDoList",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "toDoList",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -16,10 +16,7 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.domko.toDoList"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +28,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4acd371f-54a3-4557-8bc1-02d77a5a1aa5"
+      }
     }
   }
 }
